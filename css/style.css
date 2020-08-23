@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+.background {
+  background: linear-gradient(rgba(70, 56, 110, 1), rgba(70, 56, 110, 0));
+}
+
+h1 {
+  margin: 55px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.6rem;
+  color: #66BFBF;
+}
+
+h2 {
+  margin: 0 auto 0 auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #11999E;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bold;
+}
+
+a {
+  color: #11999E;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+#a-programmer {
+  font-weight: normal;
+}
+
+#pro {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.125rem;
+}
+
+.top-container {
+  /* background-color: #cffffe;*/
+  position: relative;
+  padding-top: 80px;
+}
+
+.middle-container {
+  /*  background-color: #95BDB4;*/
+}
+
+.bottom-container {
+  background: rgba(70, 56, 110, 1);
+  height: 90px;
+  margin-top: 80px;
+  padding-top: 30px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 180px;
+  bottom: 310px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.top-cloud1 {
+  position: absolute;
+  left: 146px;
+  top: 100px;
+}
+
+.bottom-cloud1 {
+  position: absolute;
+  right: 146px;
+  bottom: 280px;
+}
+
+.skills {}
+
+.mountain {
+  position: relative;
+  top: 5px;
+}
+
+.skill-row-right {
+  width: 50%;
+  margin: 15px 100px 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row-left {
+  width: 50%;
+  margin: 100px auto 0 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.web-img {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.desktop-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.myButton {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+  margin-top: 50px;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+hr {
+  border-style: dotted;
+  border-width: 0.5em 0 0 0;
+  color: #11999E;
+  margin: 3em auto 3em auto;
+  width: 8%;
+}
+
+.gif {
+  width: 50px;
+}
+
+.spongbob {
+  position: absolute;
+  width: 120px;
+  left: 60px;
+}
