@@ -109,9 +109,10 @@ a {
 
 .web-img {
   width: 40%;
+
   float: left;
   margin-right: 30px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .desktop-img {
@@ -158,6 +159,9 @@ hr {
 
 .gif {
   width: 50px;
+}
+.HTMLCSSJAVASCRIPT{
+  margin-left: 280px;
 }
 
 .spongbob {
