@@ -1,44 +1,40 @@
 body {
   margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   text-align: center;
-}
-
-.background {
-  background: linear-gradient(to right bottom, rgba(70, 56, 110, 1), rgba(70, 56, 110, 0));
 }
 
 h1 {
   margin: 55px auto 0 auto;
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: 5.6rem;
-  color: #66BFBF;
+  color: #66bfbf;
 }
 
 h2 {
   margin: 0 auto 0 auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
-  color: #11999E;
+  color: #11999e;
   font-weight: bold;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
   font-weight: bold;
 }
 
 a {
-  color: #11999E;
+  color: #11999e;
   margin-left: 15px;
   margin-right: 15px;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #eaf6f6;
 }
 
 #a-programmer {
@@ -46,12 +42,18 @@ a:hover {
 }
 
 #pro {
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: 5.125rem;
 }
 
 .top-container {
-  /* background-color: #cffffe;*/
+  /* background-color: #cffffe; */
+  background: linear-gradient(
+    to bottom right,
+    rgb(87, 138, 171),
+    rgb(60, 100, 136),
+    rgb(33, 64, 103)
+  );
   position: relative;
   padding-top: 80px;
 }
@@ -61,7 +63,10 @@ a:hover {
 }
 
 .bottom-container {
-  background: rgba(70, 56, 110, 1);
+  /* background: rgba(70, 56, 110, 1);
+ */
+  background-color: rgb(33, 64, 103);
+
   height: 100px;
   padding-top: 30px;
 }
@@ -109,9 +114,8 @@ a:hover {
   line-height: 2;
 }
 
-.HTMLCSSJAVASCRIPT {
-  position: relative;
-  left: 40%;
+.Web-Design-Development-description {
+  text-align-last: right;
 }
 
 .web-img {
@@ -157,7 +161,7 @@ a:hover {
 hr {
   border-style: dotted;
   border-width: 0.5em 0 0 0;
-  color: #11999E;
+  color: #11999e;
   margin: 3em auto 3em auto;
   width: 8%;
 }
@@ -173,7 +177,7 @@ hr {
 }
 
 .copyright {
-  color: #EAF6F6;
+  color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0;
 }
